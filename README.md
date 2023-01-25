@@ -23,4 +23,4 @@ Yani kısaca, bu script kullanarak bir YouTube kanalındaki tüm videoların aç
 
 
 ### Example picture:
-<img src='test.png'>
+<img src='Screenshot from 2023-01-26 01-37-52.png'>
