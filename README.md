@@ -22,5 +22,7 @@ Charmquell adlı bir YouTuber, videoda ortaya çıkardığı gerçekleri reddede
 Yani kısaca, bu script kullanarak bir YouTube kanalındaki tüm videoların açıklama kısmındaki linklere erişim sağlayabilirsiniz.
 
 
-### Example picture:
-<img src='Screenshot from 2023-01-26 01-37-52.png'>
+### A video where I show the usage of my description-hunter project (https://youtu.be/FYXtPX0SWgQ):
+
+https://user-images.githubusercontent.com/92278684/214796536-7b1ae6a1-75a1-4418-99db-7ec32e64e663.mp4
+
