@@ -13,16 +13,13 @@ In short, by using this script, you can access all the links in the description 
 [TR]
 
 
-Burada yazdığım kod, verilen YouTube kanal ID'sine göre kanal üzerindeki tüm videoların açıklama kısmındaki linkleri çekip size sunar.
+### Neden?
+Geçenlerde canım sıkıldı ve YouTube'da takılıyım dedim. YouTube'a girdiğimde ana sayfamda CharmQuell'in bir yayını düştü. Yayın da "SiyahGiyenGenc" adlı bir YouTuber'in gerçek kişiliğini ortaya çıkarıyordu. Bunu yaparken tüm kaynaklarıyla, kanıtlayarak yapıyordu. Velashil, bu Siyah diye hitap edeceğim arkadaş kanıtli bir şekilde söylenen gerçekleri inkar etmeye devam ederken, CharmQuell ve ekibi Siyah'ın YouTube kanalında bir OSINT gerçekleştirdi. Bu OSINT sonucunda Siyah'ın bir videonun açıklama kısmında, Charm'in içerisinde kötü paylaşımlarla dolu bir Facebook hesabının Siyah'a ait olduğu iddası doğrulandı çünkü videonun açıklama kısmında o Facebook hesabının linki vardı. İşin komik kısmı bunlara rağmen Siyah bu iddaları reddediyordu ki artık bir idda değil, bir gerçekti.
 
+### Teknik Kısımlar
+Bu yazdığım script sayesinde verilen bir YouTube kanalı üzerinde tüm videoların açıklamalarında bulunan linkleri topluyor ve sizlere sunuyor. Bunu yaparken YouTube API'ini kullanıyorum. Bu API sayesinde, YouTube'da bulunan verilere JSON türünde erişebiliyorum. İçerisinden "description" bölümünü çekiyor ve Python'da bulunan regex kütüphanesini kullanarak "description" bölümündeki tüm linkleri arıyor ve ekrana bastırıyourum. Bunu da her bir JSON verisi için döngüye sokuyorum.
 
-Charmquell adlı bir YouTuber, videoda ortaya çıkardığı gerçekleri reddeden bir narsistin YouTube kanalını incelemeye çalışarak bir OSINT gerçekleştirdi. Ben de bu gibi durumlarda yararlı olabilecek bir script yazdım.
-
-
-Yani kısaca, bu script kullanarak bir YouTube kanalındaki tüm videoların açıklama kısmındaki linklere erişim sağlayabilirsiniz.
-
-
-### A video where I show the usage of my description-hunter project (https://youtu.be/FYXtPX0SWgQ):
+Aşağıya, bu tool'un kullanımına dair örnek bir video bıraktım.
 
 https://user-images.githubusercontent.com/92278684/214796536-7b1ae6a1-75a1-4418-99db-7ec32e64e663.mp4
 
